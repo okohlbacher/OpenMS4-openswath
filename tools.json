@@ -1,0 +1,82 @@
+{
+  "package": "OpenMSSWATH",
+  "version": "1.0.0",
+  "tools": [
+    {
+      "name": "MRMTransitionGroupPicker",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathAnalyzer",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathAssayGenerator",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathChromatogramExtractor",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathConfidenceScoring",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathDIAPreScoring",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathDecoyGenerator",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathExport",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathFeatureXMLToTSV",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathFileSplitter",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathInfer",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathMzMLFileCacher",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathPeakMapExtractor",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathPercolatorScoring",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathRTNormalizer",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathRewriteToFeatureXML",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "OpenSwathWorkflow",
+      "category": "Targeted Experiments and OpenSWATH"
+    },
+    {
+      "name": "TargetedFileConverter",
+      "category": "File Converter"
+    },
+    {
+      "name": "TransitionListEvidenceFilter",
+      "category": "Targeted Experiments and OpenSWATH"
+    }
+  ]
+}

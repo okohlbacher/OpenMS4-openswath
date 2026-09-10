@@ -1,0 +1,127 @@
+{
+  "upstream": "https://github.com/OpenMS/OpenMS",
+  "commit": "ca32296038839459d8c9b075b759e285913d6294",
+  "package": "openswath",
+  "imported_files": [
+    {
+      "upstream": "src/openms/include/OpenMS/APPLICATIONS/OpenSwathBase.h",
+      "package": "openswath",
+      "path": "include/OpenMS/APPLICATIONS/OpenSwathBase.h"
+    },
+    {
+      "upstream": "src/openms/source/APPLICATIONS/OpenSwathBase.cpp",
+      "package": "openswath",
+      "path": "source/APPLICATIONS/OpenSwathBase.cpp"
+    },
+    {
+      "upstream": "src/topp/MRMTransitionGroupPicker.cpp",
+      "package": "openswath",
+      "path": "src/MRMTransitionGroupPicker.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathAnalyzer.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathAnalyzer.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathAssayGenerator.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathAssayGenerator.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathChromatogramExtractor.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathChromatogramExtractor.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathConfidenceScoring.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathConfidenceScoring.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathDIAPreScoring.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathDIAPreScoring.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathDecoyGenerator.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathDecoyGenerator.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathExport.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathExport.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathFeatureXMLToTSV.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathFeatureXMLToTSV.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathFileSplitter.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathFileSplitter.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathInfer.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathInfer.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathMzMLFileCacher.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathMzMLFileCacher.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathPeakMapExtractor.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathPeakMapExtractor.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathPercolatorScoring.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathPercolatorScoring.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathRTNormalizer.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathRTNormalizer.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathRewriteToFeatureXML.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathRewriteToFeatureXML.cpp"
+    },
+    {
+      "upstream": "src/topp/OpenSwathWorkflow.cpp",
+      "package": "openswath",
+      "path": "src/OpenSwathWorkflow.cpp"
+    },
+    {
+      "upstream": "src/topp/TargetedFileConverter.cpp",
+      "package": "openswath",
+      "path": "src/TargetedFileConverter.cpp"
+    },
+    {
+      "upstream": "src/topp/TransitionListEvidenceFilter.cpp",
+      "package": "openswath",
+      "path": "src/TransitionListEvidenceFilter.cpp"
+    },
+    {
+      "upstream": "License.txt",
+      "package": "openswath",
+      "path": "License.txt"
+    },
+    {
+      "upstream": "AUTHORS",
+      "package": "openswath",
+      "path": "AUTHORS"
+    },
+    {
+      "upstream": ".clang-format",
+      "package": "openswath",
+      "path": ".clang-format"
+    }
+  ]
+}

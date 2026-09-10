@@ -1,0 +1,21 @@
+set(package_tools
+  MRMTransitionGroupPicker
+  OpenSwathAnalyzer
+  OpenSwathAssayGenerator
+  OpenSwathChromatogramExtractor
+  OpenSwathConfidenceScoring
+  OpenSwathDIAPreScoring
+  OpenSwathDecoyGenerator
+  OpenSwathExport
+  OpenSwathFeatureXMLToTSV
+  OpenSwathFileSplitter
+  OpenSwathInfer
+  OpenSwathMzMLFileCacher
+  OpenSwathPeakMapExtractor
+  OpenSwathPercolatorScoring
+  OpenSwathRTNormalizer
+  OpenSwathRewriteToFeatureXML
+  OpenSwathWorkflow
+  TargetedFileConverter
+  TransitionListEvidenceFilter
+)
