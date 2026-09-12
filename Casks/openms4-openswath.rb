@@ -1,9 +1,9 @@
 cask "openms4-openswath" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.0-ci.1,047ba961bf81"
-  sha256 arm:   "9d1bd9f6caa7f98fe2c739dad65d6c1def1428cbca191228a844082c263a8f60",
-         intel: "062e94caa2417a831fd3c296f808a882e26f1ccb8dca117ca85904fbeec01135"
+  version "1.0.0-ci.2,851e8f0e0ec4"
+  sha256 arm:   "d609ba1f5abbdfdd7ba897edb78bbe933f3f3309332efeb60da6bc0365aeaff2",
+         intel: "fd1ae65cadbf03a7b421380b580ce2bb305c074f0235bcd62f4dd0f0f3f16ed0"
 
   url "https://github.com/okohlbacher/OpenMS4-openswath/releases/download/" \
       "openswath-v#{version.csv.first}/OpenMS4-openswath-macos-#{arch}-Homebrew-#{version.csv.second}.tar.gz"
