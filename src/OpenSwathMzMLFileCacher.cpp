@@ -160,7 +160,9 @@ class TOPPOpenSwathMzMLFileCacher
     }
     else if (in_type == FileTypes::MZML && out_type == FileTypes::SQMASS && process_lowmemory)
     {
-      MSDataSqlConsumer consumer(out, batchSize, full_meta, lossy_compression, mass_acc);
+      // the second argument is the run id: without it every later argument moved one place, the
+      // batch size became the run id and full_meta became the buffer size
+      MSDataSqlConsumer consumer(out, 0, batchSize, full_meta, lossy_compression, mass_acc);
       MzMLFile f;
       PeakFileOptions opt = f.getOptions();
       opt.setMaxDataPoolSize(batchSize); 
@@ -170,8 +172,8 @@ class TOPPOpenSwathMzMLFileCacher
     }
     else if (in_type == FileTypes::SQMASS && out_type == FileTypes::SQMASS && process_lowmemory)
     {
-      PlainMSDataWritingConsumer consumer(out);
-      consumer.getOptions().setWriteIndex(true);
+      // sqMass out needs the SQL consumer; the mzML writer used here wrote mzML under the .sqMass name
+      MSDataSqlConsumer consumer(out, 0, batchSize, full_meta, lossy_compression, mass_acc);
       SqMassFile f;
       f.transform(in, &consumer, true, true);
       return EXECUTION_OK;
