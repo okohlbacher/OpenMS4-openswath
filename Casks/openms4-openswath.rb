@@ -1,9 +1,9 @@
 cask "openms4-openswath" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.0-ci.3,2ac1cca68c65"
-  sha256 arm:   "7ea8efa7f6f026d2efafbf8860de55a1199ce84e74488fd23308656c9ab541be",
-         intel: "dec40ab7738571e1c0239d9c7d6fe9568f1585b94fe1b8a29261630f6e2aa20a"
+  version "1.0.0-ci.4,52b0cb35b945"
+  sha256 arm:   "f32a5a8dd29eb2d686569ae7ea0cb79da5a0175943687be2b804af2314cd1408",
+         intel: "2597d06a88b3fa19aceb150730b09187dc82b8460719fcfad8d646cb0c278ec3"
 
   url "https://github.com/okohlbacher/OpenMS4-openswath/releases/download/" \
       "openswath-v#{version.csv.first}/OpenMS4-openswath-macos-#{arch}-Homebrew-#{version.csv.second}.tar.gz"
@@ -39,9 +39,9 @@ cask "openms4-openswath" do
   preflight do
     config = "#{HOMEBREW_PREFIX}/opt/openms4-core/lib/cmake/OpenMS/OpenMSConfig.cmake"
     core = File.exist?(config) ? File.read(config)[/set\(OpenMS_SOURCE_REVISION "([0-9a-f]{40})"\)/, 1] : nil
-    next if core == "ac41cc177023e24a8fbc711a6ce9010187c54c44"
+    next if core == "84847138c0de67149601aaa860af7ac8e2e64534"
 
-    raise Cask::CaskError, "openms4-openswath #{version.csv.first} was built against openms4-core ac41cc177023, " \
+    raise Cask::CaskError, "openms4-openswath #{version.csv.first} was built against openms4-core 84847138c0de, " \
                            "but the installed openms4-core is #{core&.slice(0, 12) || "unknown"}. " \
                            "Install the openms4-openswath release built for the installed Core."
   end
